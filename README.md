@@ -1,10 +1,10 @@
-# Proveeksamen09_12
+# Eksamen 18_12
 
 ## Get started
 
 Clone project
 ```
-git clone https://github.com/nicklasbring/proveeksamen09_12.git
+git clone https://github.com/nicklasbring/eksamen18_12.git
 ```
 Install modules
 ```
@@ -25,7 +25,7 @@ npm start
 |  **Host** |  localhost |
 |  **User** |  root |
 |  **Password** |  password |
-|  **Database** |  TwinShips |
+|  **Database** |  hjemlos |
 
 ## Architecture
 |   |   |
