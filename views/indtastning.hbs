@@ -1,0 +1,44 @@
+<h1 id="resurser">{{title}}</h1>
+<div>
+<table>
+    <tr>
+        <th>By</th>
+        <th>Kategori</th>
+        <th>Navn</th>
+        <th>Beskrivelse</th>
+        <th>Adresse</th>
+        <th>Telefon</th>
+        <th>Åbningstider</th>
+        <th>Website</th>
+    </tr>
+    <tr>
+        <form action="http://localhost:3000/api/resurse" method="post">
+            <td>
+                <input type="text" name="by" id="by">
+            </td>
+            <td>
+                <input type="text" name="kategori" id="kategori">
+            </td>
+            <td>
+                <input type="text" name="navn" id="navn">
+            </td>
+            <td>
+                <input type="text" name="beskrivelse" id="beskrivelse">
+            </td>
+            <td>
+                <input type="text" name="adresse" id="adresse">
+            </td>
+            <td>
+                <input type="number" name="telefon" id="telefon">
+            </td>
+            <td>
+                <input type="text" name="aabningstider" id="aabningstider">
+            </td>
+            <td>
+                <input type="text" name="webside" id="webside">
+            </td>
+    </tr>
+</table>
+</div>
+<input type="submit" id="insendData">
+</form>

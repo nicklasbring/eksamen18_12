@@ -1,0 +1,45 @@
+Teknologispørgsmål 1
+Vægt, livvidde og skostørrelse hører under helbredsmæssige forhold, 
+og skal derfor behandles som særligt følsomt materiale. 
+Det samme gælder cpr-nummer, fagforeningsmedlemsskab og seksuelle præferencer.
+
+Disse data skal allesammen automatisk overholde persondatalovgivningen 
+eller være godkendt af den individulle hjemløse. 
+
+For at man kan indsamle anonym data, skal dette også godkendes af individerne først.
+
+
+Teknologispørgsmål 2
+
+Der findes fx SQL-injection, som går ud på at man sender nogle sql queries fra en webapp,
+gennem en form eller en post request. Det kan fx være drop schema, som vil slette hele databasen.
+Dette angreb kan derfor være meget skadeligt hvis ikke databasen er sikret ordentligt.
+
+
+Man kan også gøre brug af et 'Man in the middle attack', som går ud på at man daner en bro
+mellem ham man vil hacke og den server han kommunikerer med. På den måde kan han opsnappe
+alle request og rosponses derimellem. 
+
+Man kan også lave en spoofing, hvor man omdirigerer trafikken til en anden html login form,
+som ligner den gamle på en prik. Når brugeren logger ind, vil brugernavn og password, 
+ryge direkte ned til hackeren.
+
+
+1.
+for at forhindre angreb på databasen, vil man kunne bruge en ORM, som fungerer objekt orienteret.
+Den kører nemlig sql kommandoer i form af objekter og metoder. Rene sql queries vil derfor ikke virke længere.
+
+
+2.
+Man skal sørge for at der ikke kan skrives noget andet i input felter end det er beregnet til.
+Så der kun kan stå tal under telefonnummer osv. 
+
+3. 
+Desuden skal man sørge for at følsom data er krypteret eller hashed, så hackeren ikke kan bruge det til 
+noget, hvis han får adgang.
+
+Username og Password skal fremstå krypteret i databasen. Den bedste måde at skjule det på,
+er at hashe det, eftersom hashing ikke kan dekrypteres. Man kan også lave en normal kryptering,
+som stadig er svær at nedbryde, men sikkerheden er en smule lavere. Det kunne fx være aes128
+som er en 128bit kryptering.
+

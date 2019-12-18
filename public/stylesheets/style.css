@@ -1,0 +1,40 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+td, th{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+table{
+  border: 1px solid black;
+}
+
+#resurser{
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#insendData{ 
+  margin-top:2%;
+  display: flex;
+  justify-content: center;
+} 
+
+
+div{
+  display: flex;
+  justify-content: center;
+}
+
+#insendData{
+float: left;
+}
